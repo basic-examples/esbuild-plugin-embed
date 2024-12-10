@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "esbuild": "^0.24.0",
-    "esbuild-plugin-embed": "file:.."
+    "esbuild-plugin-embed": "file:../dist"
   },
   "devDependencies": {
     "@types/node": "^22.10.1",

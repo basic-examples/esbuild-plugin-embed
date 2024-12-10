@@ -1,5 +1,5 @@
 import { build } from "esbuild";
-import EmbedFilePlugin from "esbuild-plugin-embed/src";
+import EmbedFilePlugin from "esbuild-plugin-embed";
 
 build({
   entryPoints: ["src/index.ts"],
