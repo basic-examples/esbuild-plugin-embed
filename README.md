@@ -1,4 +1,4 @@
-# esbuild-embed-file-plugin
+# esbuild-plugin-embed
 
 A custom **esbuild plugin** to replace `readFileSync(SOME_STRING_LITERAL)` calls in your JavaScript/TypeScript code with the file's embedded content at build time.
 

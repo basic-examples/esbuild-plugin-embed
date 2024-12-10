@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-embed",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "build": "rimraf dist && tsc -p tsconfig.compile.json && package-json-minifier && cpy README.md dist"
   },
