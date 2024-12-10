@@ -1,0 +1,24 @@
+{
+  "name": "esbuild-plugin-embed",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rimraf dist && tsc -p tsconfig.compile.json && package-json-minifier && cpy README.md dist"
+  },
+  "dependencies": {
+    "esbuild": "^0.24.0"
+  },
+  "peerDependencies": {
+    "@types/node": "^22.10.1"
+  },
+  "peerDependenciesMeta": {
+    "@types/node": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "cpy-cli": "^5.0.0",
+    "package.json-minifier": "^0.0.4",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.2"
+  }
+}

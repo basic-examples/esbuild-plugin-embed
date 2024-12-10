@@ -1,0 +1,14 @@
+{
+  "name": "@this-project/sample",
+  "scripts": {
+    "build": "npx tsx build.ts"
+  },
+  "dependencies": {
+    "esbuild": "^0.24.0",
+    "esbuild-plugin-embed": "file:.."
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2"
+  }
+}
