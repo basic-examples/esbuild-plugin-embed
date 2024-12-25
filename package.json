@@ -1,6 +1,7 @@
 {
+  "private": true,
   "name": "esbuild-plugin-embed",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "build": "rimraf dist && tsc -p tsconfig.compile.json && package-json-minifier && cpy README.md dist"
   },
@@ -8,7 +9,7 @@
     "esbuild": "^0.24.0"
   },
   "peerDependencies": {
-    "@types/node": "^22.10.1"
+    "@types/node": "^22.10.2"
   },
   "peerDependenciesMeta": {
     "@types/node": {

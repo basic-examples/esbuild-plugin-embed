@@ -27,7 +27,7 @@ Include the plugin in your esbuild configuration:
 
 ```typescript
 import esbuild from "esbuild";
-import EmbedFilePlugin from "esbuild-plugin-embed";
+import { EmbedFilePlugin } from "esbuild-plugin-embed";
 
 esbuild
   .build({

@@ -46,5 +46,3 @@ export function EmbedFilePlugin(options: EmbedFilePluginOptions = {}): Plugin {
     },
   };
 }
-
-export { EmbedFilePlugin as default };
